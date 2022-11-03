@@ -9,5 +9,5 @@ const cidades = [
 const validaCidade = cidades.filter((cidade) => cidade.length <= 8);
 
 validaCidade
-  ? console.log(validaCidade)
+  ? console.log(validaCidade.join(", "))
   : console.log("nenhum resultado encontrado");
